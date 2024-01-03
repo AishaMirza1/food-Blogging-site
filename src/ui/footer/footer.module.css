@@ -1,0 +1,114 @@
+.footer {
+  height: 362px;
+  background: #f8f8f8;
+  margin-bottom: 3rem;
+  font-family: Source Sans Pro;
+  line-height: 27px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  padding: 84px 103px 92px 103px;
+}
+.footer ul {
+  max-width: 217px;
+}
+.footer ul li {
+  color: #646874;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+.footer ul .linkHeader {
+  color: #0e2368;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.565px;
+}
+.logosContainer div {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer img {
+  width: 161px;
+  height: 125px;
+  flex-shrink: 0;
+  margin: auto 0;
+}
+.footer span {
+  color: #828b9c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14.656px;
+  line-height: 25.124px;
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+@media (max-width: 840px) {
+  .footer span {
+    top: 80%;
+  }
+  .footer {
+    padding: 84px 50px 92px 50px;
+  }
+  .footer img {
+    width: 75px;
+    height: 58px;
+  }
+}
+@media (max-width: 600px) {
+  .footer {
+    padding: 84px 10px 92px 10px;
+  }
+}
+@media (max-width: 528px) {
+  .footer {
+    height: fit-content;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 41px;
+  }
+  .footer ul {
+    max-width: 275px;
+  }
+}
+@media (max-width: 377px) {
+  .footer {
+    padding: 0 0 0 43px;
+    margin-bottom: 100px;
+  }
+  .footer img {
+    margin: 52px 152px 52px 107px;
+  }
+  .footer ul {
+    margin-bottom: 15px;
+  }
+  .footer ul li {
+    font-size: 11px;
+    line-height: 20px;
+    margin: 0px;
+  }
+  .footer ul .linkHeader {
+    color: #0e2368;
+    font-size: 15.771px;
+    line-height: 34.804px;
+    letter-spacing: 0.473px;
+  }
+  .footer span {
+    position: absolute;
+    top: 90%;
+    right: 35%;
+    font-size: 8.762px;
+    line-height: 32.127px;
+  }
+  .logosContainer {
+    margin: 52px 152px 52px 107px;
+  }
+  .logosContainer div li {
+    margin: 5px 9px 5px 0;
+  }
+  .logosContainer .linkHeader {
+    display: none;
+  }
+}
