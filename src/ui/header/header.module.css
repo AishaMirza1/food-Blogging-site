@@ -1,0 +1,123 @@
+.header {
+  height: 804px;
+  margin-bottom: 185px;
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.headerContent {
+  max-width: 345px;
+  min-width: 345px;
+  margin: 33px 100px;
+}
+.headerContent h1 {
+  margin-bottom: 26px;
+}
+.headerContent h1,
+.headerContent h1 span {
+  color: #0e2368;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 69px;
+}
+.headerContent h1 span {
+  color: #e23744;
+}
+.headerContent p {
+  color: #444957;
+  font-family: Open Sans;
+  font-size: 16.445px;
+  line-height: 27.408px;
+  margin-bottom: 40px;
+}
+.headerContent img {
+  width: 107px;
+  height: 83px;
+  margin-bottom: 95px;
+}
+.headerImg {
+  position: relative;
+}
+.headerImg svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.headerImg img {
+  width: 735px;
+  height: 803px;
+}
+@media (max-width: 1310px) {
+  .header {
+    height: 704px;
+    margin-bottom: 175px;
+  }
+  .headerContent {
+    max-width: 345px;
+    min-width: 345px;
+    margin: 33px 50px;
+  }
+}
+@media (max-width: 800px) {
+  .header {
+    height: fit-content;
+  }
+  .headerContainer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerContent img {
+    display: none;
+  }
+  .headerImg img {
+    width: 478.213px;
+    height: 513.718px;
+    margin-bottom: 75px;
+  }
+  .headerImg svg {
+    display: none;
+  }
+}
+@media (max-width: 377px) {
+  .header {
+    margin-bottom: 185px;
+  }
+  .headerImg svg {
+    display: inline-block;
+  }
+
+  .headerImg {
+    overflow: hidden;
+  }
+  .headerImg img {
+    width: 378.213px;
+    height: 413.718px;
+    margin-bottom: 75px;
+  }
+  .headerContent {
+    text-align: center;
+  }
+  .headerContent h1,
+  .headerContent h1 span {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .headerContent h1 {
+    margin-bottom: 20px;
+  }
+  .headerContent {
+    max-width: 240px;
+    min-width: 240px;
+    margin: 33px 68px;
+  }
+  .headerContent p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 28px;
+  }
+  .headerContent button {
+    margin: 0 auto;
+  }
+}

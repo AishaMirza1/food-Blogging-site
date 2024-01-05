@@ -2,7 +2,6 @@
   height: 362px;
   background: #f8f8f8;
   margin-bottom: 3rem;
-  font-family: Source Sans Pro;
   line-height: 27px;
   display: flex;
   position: relative;
@@ -13,10 +12,16 @@
   max-width: 217px;
 }
 .footer ul li {
+  margin-bottom: 14px;
+  color: #646874;
+}
+.footer ul li a {
   color: #646874;
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 14px;
+  padding: 2px 3px;
+  text-decoration: none;
 }
 .footer ul .linkHeader {
   color: #0e2368;
@@ -27,6 +32,9 @@
 .logosContainer div {
   display: flex;
   flex-direction: row;
+}
+.logosContainer li svg {
+  color: #0e2368;
 }
 
 .footer img {

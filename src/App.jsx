@@ -1,16 +1,16 @@
-import About from "./ui/about/about";
-import Button from "./ui/button/Button";
-import "./index.css";
+import About from "./ui/about/About";
+
+import "./global.css";
 import Footer from "./ui/footer/Footer";
+import ArticleSection from "./ui/articles/Articles";
+import Header from "./ui/header/Header";
 function App() {
   return (
     <main>
-      {/* <Button btnInnerHtml="Explore Now!" isPrimary />
-      <Button btnInnerHtml="Read More" isPrimary2 />
-      <Button btnInnerHtml="Get In Touch" isPrimary3 /> */}
-      <Button btnInnerHtml="Read More" />
-      <Footer />
+      <Header />
       <About />
+      <ArticleSection />
+      <Footer />
     </main>
   );
 }

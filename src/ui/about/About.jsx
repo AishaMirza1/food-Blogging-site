@@ -1,4 +1,5 @@
 import styles from "./about.module.css";
+import Button from "../button/Button";
 import imgUrl from "../../assets/about/pharmasict-serving-customer-drug-store 1.png";
 export default function About() {
   return (
@@ -13,6 +14,7 @@ export default function About() {
           and scrambled it to make a type specimen book. t has survived not only
           five centuries.
         </p>
+        <Button btnInnerHtml="Read More" isPrimary2 />
       </div>
     </section>
   );
